@@ -1,0 +1,9 @@
+Fecha-Hora           Cliente   Clase.java       Mensaje de error 
+2021-03-17 - 14:42:25 A-000001-DatosRepLegal line 161 :             org.postgresql.util.PSQLException: ERROR: error de sintaxis en o cerca de «null»
+  Position: 126
+2021-03-17 - 14:42:25 A-000001-DatosRepLegal line 461 :             org.postgresql.util.PSQLException: ERROR: la sintaxis de entrada no es válida para integer: «»
+  Position: 72
+2021-03-17 - 20:01:22 A-000001-DatosRepLegal line 161 :             org.postgresql.util.PSQLException: ERROR: error de sintaxis en o cerca de «null»
+  Position: 125
+2021-03-17 - 20:03:19 A-000001-DatosRepLegal line 161 :             org.postgresql.util.PSQLException: ERROR: error de sintaxis en o cerca de «null»
+  Position: 125

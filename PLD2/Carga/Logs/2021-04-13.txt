@@ -1,0 +1,4 @@
+Fecha-Hora           Cliente   Clase.java       Mensaje de error 
+2021-04-13 - 12:13:10 A-000003-DatosClienteRaro line 305 :             org.postgresql.util.PSQLException: ERROR: no existe la función usp_change_cliente(character varying, character varying, date, character varying, character varying, character varying, character varying, character varying, character varying, integer, date, integer, integer, character varying, date, character varying, character varying, boolean, date, boolean, character varying, integer, character varying)
+  Hint: Ninguna función coincide en el nombre y tipos de argumentos. Puede ser necesario agregar conversión explícita de tipos.
+  Position: 15

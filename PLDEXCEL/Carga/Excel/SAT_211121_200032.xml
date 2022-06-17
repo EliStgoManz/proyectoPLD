@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<archivo xmlns="http://www.uif.shcp.gob.mx/recepcion/tpp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.uif.shcp.gob.mx/recepcion/tpp tpp.xsd">
+<informe>
+<mes_reportado>202011</mes_reportado>
+<sujeto_obligado>
+<clave_sujeto_obligado>EFE8908015L3</clave_sujeto_obligado>
+<clave_actividad>TPP</clave_actividad>
+</sujeto_obligado>
+</informe>
+</archivo>

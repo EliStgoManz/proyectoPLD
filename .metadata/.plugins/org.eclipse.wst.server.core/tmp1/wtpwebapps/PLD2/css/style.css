@@ -1,0 +1,626 @@
+/* custom styles */
+@import url('https://fonts.googleapis.com/css?family=Ropa+Sans');
+/* <-- Libre Franklin Reemplaza Benton Sans  --> */
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:300,700');
+/* <-- Open Sans Condensed Reemplaza DinNexLTPro  --> */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+/** Seccion Productos **/
+
+
+/** Seccion Banners **/
+body{
+    front-family: Arial, Helvetica, sans-serif;
+}
+table{
+    font-size: 1em;
+}
+.ui-draggable, .ui-droppable{
+    background-position: top;
+}
+
+.con {
+  position: relative;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000000;
+}
+
+.con:hover .overlay {
+  opacity: 1;
+}
+
+
+.image2{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.linked {
+
+   position: absolute;
+   font-size: 10px;
+   top: 80%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%); 
+}
+
+/**    footer     **/
+.footer-efectivale{
+  /*background-color: #cc0033;*/
+  background-color: #BA1A3B;
+  color: #FFFFFF;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 12px;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+.footer-efectivale a{
+  color: rgb(255, 255, 255);
+}
+
+.footer-efectivale h3{
+  margin-top:0;
+  margin-bottom:0px;
+  font-weight:bold;
+  font-size:16px;
+  display: block;
+}
+
+.footer-menu{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-menu-bottom{
+  font-family: 'Libre Franklin', sans-serif;
+  color: rgb(109, 110, 101);
+  text-align: right;
+  font-size: 12px;
+  padding: 10px;
+}
+
+.footer-menu-bottom a{
+  color: rgb(109, 110, 101);
+}
+
+.footer-menu-bottom ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-menu-bottom ul li{
+   display: inline;
+   padding-right: 15px;
+}
+
+.container-footer{
+  background-image:url('../img/footer/pleca.png');
+  background-repeat:no-repeat;
+  /*background-size:contain;*/
+  background-position:center;
+}
+
+/**  Header **/
+#header{
+  background-color: #BC1538;
+}
+
+
+/**
+.header-menu-secundario{
+  text-align: left;
+}
+
+
+.header-menu-secundario ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header-menu-secundario ul li{
+   display: inline;
+   margin-left: 0px;
+   padding-left: 0px;
+   padding-right: 1px;
+}
+
+**/
+
+#header-menu-secundario ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#header-menu-secundario ul li {
+    display: inline;
+}
+
+.header-contact-numbers{
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-size: 18px;
+  color: #FFFFFF;
+  text-align: right;
+  letter-spacing: 2px;
+  margin-right: 25px;
+  padding-right: 55px;
+}
+
+.header-contact-numbers a{
+  color: #FFFFFF;
+}
+
+.dropdown .dropdown-menu {
+    background-color: rgba(255,255,255, 0.7);
+}
+/*
+.navbar-inverse {
+  background-color:#BC1538;
+}*/
+.navbar .dropdown-menu a:hover {
+  /*background-color: rgb(186,26,59);*/
+  background-color: #cc0033;
+}
+
+.dropdown-menu a:hover {
+  /*background-color: rgb(186,26,59);*/
+  /*background-color: #cc0033;*/
+   background-color: rgba(248,80,50,1);
+}
+
+.navbar-nav li {
+  color: #FFFFFF;
+  font-size: 14px;
+  font-family: 'Open Sans Condensed';
+}
+
+
+.overlay-efectivale{
+  background: url('../img/header/pleca.png') top right no-repeat;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  max-height: 32px;
+  z-index: 3;
+  opacity: 1;
+}
+
+
+.overlay-efectivale p a{
+  font-family: 'Open Sans Condensed';
+  color: #FFFFFF;
+  font-size: 8;
+  text-align: right;
+}
+
+
+/* Usado en la pagina de recetas  */
+.boton-banner-centro{
+  position: absolute;
+  z-index: 3; 
+  margin-top: -1rem; 
+  margin-left: 6%; 
+  margin-right: 6%; 
+  text-align: center;
+}
+
+.boton-banner-recetas{
+  position: relative;
+  z-index: 3; 
+  margin-top: -1rem; 
+  text-align: center;
+  padding-bottom: 14px;
+}
+
+.productos div, p {
+  color: rgb(109, 110, 101);
+}
+
+.productos div h6 {
+  color: #8bc34a;
+  font-weight: bold;
+}
+
+.title-body{
+  line-height: 1;
+}
+
+.banner-menu-recetas  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 90%;  
+}
+
+.banner-menu-recetas li {
+    display: block;
+    border-bottom: 1px solid #555;
+    padding-top: 4px;
+    padding-bottom: 4px;   
+}
+
+/*  debe estar en un div contenedor o elemento padre.
+.super{
+  font-size: 70%;
+  color: red;
+} */
+
+#registration-form select{
+  font-size: 80%;
+  /*color: rgb(109, 110, 101);*/
+}
+
+#registration-form label {
+  font-size: 85%;
+  color: #000;
+}
+
+#registration-form span {
+  font-size: 60%;
+  color: red;
+}
+
+
+
+
+
+
+
+/*
+input[type=text] {
+color: rgb(109, 110, 101);
+}
+
+
+input[type="select"] {
+
+  color:red;
+}*/
+
+
+#clientes-contacto:hover > .cnn {
+  display: inline;
+}
+
+#contratar-contacto:hover > .cnn {
+  display: inline;
+}
+
+#afiliados-contacto:hover > .cnn {
+  display: inline;
+}
+
+
+.cnn {
+  background-color: #263238;
+  position:absolute;
+  min-width: 280px;
+  top: 35%; left: 50%;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%, -50%);
+  color: #FFF;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 100;
+  font-size: 80%;
+  text-align: center;
+  opacity: 0.9;
+  display: none;
+}
+
+.cnn span {
+  color: #4caf50;
+}
+
+
+
+
+
+/*                
+.carousel-indicators > .active {
+  background-color: #C1314F !important; 
+}*/
+
+
+.boton-menu-clientes{
+  position: relative;
+  z-index: 3; 
+  margin-top: -1rem; 
+  text-align: center;
+}
+
+
+/*  Saldos  */
+.main-copy-saldos {
+    font-family: 'Libre Franklin', sans-serif;
+    color: rgb(109, 110, 101);
+    font-weight: bold;
+}
+
+
+.second-copy-saldos {
+    font-family: 'Libre Franklin', sans-serif;
+    color: rgb(134, 189, 72);
+    font-size: 18px;
+}
+
+
+/* Generic boton center */
+.boton-centro{
+  position: relative;
+  z-index: 3; 
+  margin-top: -1rem; 
+  text-align: center;
+}
+
+.central-adjust{
+  max-width: 60%;
+}
+
+
+.consulta-saldo-online-text{
+  color: rgb(102, 102, 93);
+  font-family: 'Libre Franklin', sans-serif;
+  line-height: 1.2;
+  font-size: 14px;
+}
+
+.consulta-saldo-online-text span {
+  color:#cc0033;
+}
+
+#saldo-online:hover > .cnn-image {
+  display: inline;
+}
+
+#saldo-despensa:hover > .cnn-image {
+  display: inline;
+}
+
+#saldo-comida:hover > .cnn-image {
+  display: inline;
+}
+
+#reporte-robo:hover > .cnn-image {
+  display: inline;
+}
+
+.cnn-image{
+  position:absolute;
+  min-width: 280px;
+  top: 25%; left: 50%;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%, -50%);
+  display: none;
+}
+
+.card {
+  style="background-color:#E6E6E7;"
+}
+
+
+/*  Secci�n para mostrar el preview de los documentos por cargar */
+#viewer{
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+#text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    width: 80%;
+    height: 80%;
+    
+    
+}
+
+#frame{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+#sobrecapa {
+    position: fixed; 
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+#textSobrecapa{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+    overflow: auto; 
+    
+}
+
+
+
+#frameContenedor{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    width: 80%;
+    height: 80%;
+    overflow: scroll; 
+}
+
+
+#tblBeneficiario{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    border-radius: 15px;
+    background: #fff;
+}
+
+#tblListaBeneficiarios{
+    border: 1px solid #ced4da;
+    width: auto;
+    text-align: center;
+    
+}
+
+th{
+    border: 2px solid #ced4da;
+    height: 50px;   
+}
+
+#imgCerrarVisor{
+    
+
+    
+}
+
+#cerrarVisor{
+    
+    margin-top: 1%;
+    margin-right: 9.7%;
+    float: right;
+    
+}
+
+
+/* LOADER */
+.loader {
+  font-size: 10px;
+  margin: 30% auto;
+  text-indent: -9999em;
+  width: 11em;
+  height: 11em;
+  border-radius: 50%;
+  background: #ffffff;
+  background: -moz-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+  background: -webkit-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+  background: -o-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+  background: -ms-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+  background: linear-gradient(to right, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+  position: relative;
+  -webkit-animation: load3 1.4s infinite linear;
+  animation: load3 1.4s infinite linear;
+}
+.loader:before {
+  width: 50%;
+  height: 50%;
+  background: #FFF;
+  border-radius: 100% 0 0 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+}
+.loader:after {
+  background: #0dcecb;
+  width: 75%;
+  height: 75%;
+  border-radius: 50%;
+  content: '';
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+@-webkit-keyframes load3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes load3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+
+#conte{
+    width: 200px;
+    height: 200px;
+}

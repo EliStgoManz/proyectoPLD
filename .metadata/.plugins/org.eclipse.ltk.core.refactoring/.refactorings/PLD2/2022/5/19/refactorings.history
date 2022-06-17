@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;postgresql-42.3.1.jar&apos; to &apos;exportacion/src/exportacion&apos;&#x0D;&#x0A;- Original project: &apos;PLD2&apos;&#x0D;&#x0A;- Destination element: &apos;exportacion/src/exportacion&apos;&#x0D;&#x0A;- Original element: &apos;postgresql-42.3.1.jar&apos;" description="Copy file" destination="=exportacion/src&lt;exportacion" element1="src/libreria/postgresql-42.3.1.jar" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1652481087892" units="0" version="1.0"/>
+</session>

@@ -1,0 +1,23 @@
+Fecha-Hora           Cliente   Clase.java       Mensaje de error 
+2021-06-22 - 00:24:14 A-123456-DatosGobierno line 147 :             org.postgresql.util.PSQLException: ERROR: inserción o actualización en la tabla «avgobierno» viola la llave foránea «fk_avgobierno_avgiromercantil»
+  Detail: La llave (giro_id)=(1000000) no está presente en la tabla «avgiromercantil».
+  Where: sentencia SQL: «INSERT INTO avgobierno
+	(
+		cliente_id,	razonsocial,	actividadobjetosocial,	rfc,	fechacreacion,	pais,	giro_id,	rlnombre,	rlapellidopaterno,	rlapellidomaterno,	rlfechanacimiento,	rlrfc,	rlidentifica_id,	rlautoridademiteid,	rlnumeroid,	rlcurp,	rlidentificaciontipo,	fecharegistro,	imagenacreditacion,	imagencedulafiscal,	imagenrlid,	imagenrlfacultades
+	)
+	VALUES
+	(
+		vcliente_id,	vrazonsocial,	vactividadobjetosocial,	vrfc,	vfechacreacion,	vpais,	vgiro_id,	vrlnombre,	vrlapellidopaterno,	vrlapellidomaterno,	vrlfechanacimiento,	vrlrfc,	vrlidentifica_id,	vrlautoridademiteid,	vrlnumeroid,	vrlcurp,	vrlidentificaciontipo,	now(),	vimagenacreditacion,	vimagencedulafiscal,	vimagenrlid,	vimagenrlfacultades
+	)»
+función PL/pgSQL usp_change_personagobierno(character,character varying,character varying,character,timestamp without time zone,character,character,character varying,character varying,character varying,timestamp without time zone,character,character,character varying,character,character,character varying,timestamp without time zone,character varying,character varying,character varying,character varying,integer,character varying) en la línea 147 en sentencia SQL
+2021-06-22 - 00:28:28 A-123456-DatosGobierno line 147 :             org.postgresql.util.PSQLException: ERROR: inserción o actualización en la tabla «avgobierno» viola la llave foránea «fk_avgobierno_avgiromercantil»
+  Detail: La llave (giro_id)=(1000000) no está presente en la tabla «avgiromercantil».
+  Where: sentencia SQL: «INSERT INTO avgobierno
+	(
+		cliente_id,	razonsocial,	actividadobjetosocial,	rfc,	fechacreacion,	pais,	giro_id,	rlnombre,	rlapellidopaterno,	rlapellidomaterno,	rlfechanacimiento,	rlrfc,	rlidentifica_id,	rlautoridademiteid,	rlnumeroid,	rlcurp,	rlidentificaciontipo,	fecharegistro,	imagenacreditacion,	imagencedulafiscal,	imagenrlid,	imagenrlfacultades
+	)
+	VALUES
+	(
+		vcliente_id,	vrazonsocial,	vactividadobjetosocial,	vrfc,	vfechacreacion,	vpais,	vgiro_id,	vrlnombre,	vrlapellidopaterno,	vrlapellidomaterno,	vrlfechanacimiento,	vrlrfc,	vrlidentifica_id,	vrlautoridademiteid,	vrlnumeroid,	vrlcurp,	vrlidentificaciontipo,	now(),	vimagenacreditacion,	vimagencedulafiscal,	vimagenrlid,	vimagenrlfacultades
+	)»
+función PL/pgSQL usp_change_personagobierno(character,character varying,character varying,character,timestamp without time zone,character,character,character varying,character varying,character varying,timestamp without time zone,character,character,character varying,character,character,character varying,timestamp without time zone,character varying,character varying,character varying,character varying,integer,character varying) en la línea 147 en sentencia SQL

@@ -1,0 +1,99 @@
+2019-10-28 14:19:01 ERROR  : Error connecting to the server: fe_sendauth: no password supplied
+
+2019-10-28 14:19:10 ERROR  : Error connecting to the server: fe_sendauth: no password supplied
+
+2019-10-28 14:26:22 ERROR  : Error connecting to the server: fe_sendauth: no password supplied
+
+2019-10-28 14:26:29 ERROR  : Error connecting to the server: FATAL:  la autentificación password falló para el usuario «postgres»
+
+2019-10-28 14:27:34 ERROR  : Error connecting to the server: FATAL:  la autentificación password falló para el usuario «postgres»
+
+2019-10-28 14:36:40 ERROR  : Error connecting to the server: fe_sendauth: no password supplied
+
+2019-10-28 14:37:08 ERROR  : Error connecting to the server: fe_sendauth: no password supplied
+
+2019-10-28 14:37:15 ERROR  : Error connecting to the server: fe_sendauth: no password supplied
+
+2019-10-28 14:37:22 ERROR  : Error connecting to the server: FATAL:  la autentificación password falló para el usuario «postgres»
+
+2019-10-28 14:37:31 ERROR  : Error connecting to the server: FATAL:  la autentificación password falló para el usuario «postgres»
+
+2019-10-30 13:25:56 ERROR  : Error connecting to the server: could not translate host name "10.250.793.56" to address: Unknown host
+
+2019-11-04 11:02:34 ERROR  : ERROR:  no existe la columna d.nombres_y_apellido
+LINE 13:                                 d.nombres_y_apellido
+                                         ^
+2019-11-06 16:19:54 ERROR  : ERROR:  no existe la columna «cliente_id»
+LINE 9:                 SELECT cliente_id, nroBene,
+                               ^
+2019-11-13 17:17:32 ERROR  : ERROR:  no existe el tipo «cliente_id»
+LINE 1: ...iro_id='1000000' where cliente_id = 'A-124598' or cliente_id...
+                                                             ^
+2019-11-13 17:46:30 ERROR  : ERROR:  no existe el esquema «giro_id»
+LINE 1: update avgobierno set giro_id='1000000' where giro_id.trim()...
+                                                      ^
+2019-11-13 17:46:51 ERROR  : ERROR:  error de sintaxis en o cerca de «.»
+LINE 1: ...te avgobierno set giro_id='1000000' where giro_id=''.trim();
+                                                               ^
+2019-11-20 10:22:16 ERROR  : could not connect to server: Connection timed out (0x0000274C/10060)
+	Is the server running on host "10.250.193.56" and accepting
+	TCP/IP connections on port 5434?
+
+2019-11-20 10:22:42 ERROR  : could not connect to server: Connection timed out (0x0000274C/10060)
+	Is the server running on host "10.250.193.56" and accepting
+	TCP/IP connections on port 5434?
+
+2019-11-20 10:23:08 ERROR  : could not connect to server: Connection timed out (0x0000274C/10060)
+	Is the server running on host "10.250.193.56" and accepting
+	TCP/IP connections on port 5434?
+
+2019-11-20 12:33:01 ERROR  : ERROR:  llave duplicada viola restricción de unicidad «varusuariotransitorio_pkey»
+DETAIL:  Ya existe la llave (idcliente)=(A-672097).
+2019-11-20 12:40:45 ERROR  : ERROR:  no existe la columna varusuariotransitorio.tipopersona
+LINE 1: ...nsitorio.cliente_id,rfc,varusuariotransitorio.rfc,varusuario...
+                                                             ^
+2019-11-20 15:35:37 ERROR  : ERROR:  error de sintaxis en o cerca de «"A-0052600"»
+LINE 1: "A-0052600";"PONDERA SAPI DE CV";"PON180824DQ2";"2018-08-24 ...
+        ^
+2019-11-20 15:36:03 ERROR  : ERROR:  un identificador delimitado tiene largo cero en o cerca de «""»
+LINE 1: ...ral set imagendeclaratoria="''" where imagendeclaratoria="";
+                                                                    ^
+2019-11-20 15:36:13 ERROR  : ERROR:  no existe la columna «''»
+LINE 1:  update avpersonamoral set imagendeclaratoria="''" where ima...
+                                                      ^
+2019-11-21 11:15:38 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2019-11-21 14:03:28 ERROR  : ERROR:  error de sintaxis en o cerca de «http»
+LINE 1: ...COLUMN rutawsbene character varying(1000);        http://loc...
+                                                             ^
+2019-11-21 14:03:35 ERROR  : ERROR:  error de sintaxis en o cerca de «http»
+LINE 1: ...COLUMN rutawsbene character varying(1000);        http://loc...
+                                                             ^
+2019-11-21 14:52:40 ERROR  : ERROR:  error de sintaxis en o cerca de «replegal»
+LINE 1: delete replegal where cliente_id='A-698925'
+               ^
+2019-11-22 11:27:03 ERROR  : ERROR:  error de sintaxis en o cerca de «,»
+LINE 1: Select REPLACE(isnull(@direccion,'.'), Char(13), '') from av...
+                                                       ^
+2019-11-22 11:43:02 ERROR  : ERROR:  error de sintaxis en o cerca de «,»
+LINE 1: Select REPLACE(isnull(@,'.'), Char(13), '') from avcliente
+                               ^
+2019-11-22 11:43:29 ERROR  : ERROR:  error de sintaxis en o cerca de «,»
+LINE 1: Select REPLACE(@,'          ') from avcliente;
+                        ^
+2019-11-22 16:34:11 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2019-11-25 12:31:03 ERROR  : ERROR:  error de sintaxis en o cerca de «IF»
+LINE 148: IF NOT FOUND THEN        
+          ^
+2019-11-25 14:24:27 ERROR  : ERROR:  no existe la relación «pistaudit»
+LINE 1: delete from pistaudit
+                    ^
+2019-11-25 16:46:10 ERROR  : ERROR:  error de sintaxis en o cerca de «varyng»
+LINE 2:   add afectado character varyng (200);
+                                 ^
+2019-11-25 17:19:04 ERROR  : ERROR:  error de sintaxis en o cerca de «IF»
+LINE 148: IF NOT FOUND THEN        
+          ^

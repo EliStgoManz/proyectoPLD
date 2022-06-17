@@ -1,0 +1,10 @@
+computeSourcePath=true
+configMode=serverFile
+contextsDir=\\conf\\Catalina\\localhost
+eclipse.preferences.version=1
+managerUrl=http\://localhost\:8080/manager
+projectsInCp=PLD2;PLDEXCEL;PLDEXP;
+projectsInSourcePath=Correos;PLD2;PLDEXCEL;PLDEXP;RestRFC;banner;consumoWS;exportacion;
+tomcatConfigFile=\\conf\\server.xml
+tomcatJRE=1649095930850
+tomcatVersion=tomcatV7
